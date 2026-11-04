@@ -1,3 +1,5 @@
-class ActionImmpossible:
-    def __init__(self, action):
-        self.action = action
+class ActionImpossible(Exception):
+    pass
+
+class ArmeCassee(Exception):
+    pass
